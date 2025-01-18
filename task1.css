@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(to bottom, #e8f5e9, #c8e6c9);
+    font-family: Arial, sans-serif;
+
+}
+
+.vegetable-card {
+    transition: transform 0.3s;
+
+}
+
+.vegetable-card:hover {
+    transform: scale(1.10);
+}
+
+.header {
+    background-color: #52ec15;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #4caf50;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white !important;
+}
+
+.search-bar {
+    transition: all 0.3s ease;
+    width: 200px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.search-bar:focus {
+    width: 300px;
+    background-color: #ffffff;
+    border: 1px solid #4caf50;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+    color: #4caf50;
+}

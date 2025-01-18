@@ -1,0 +1,223 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background: url(back.webp);
+    background-size: cover;
+}
+
+.navbar{
+    background-color: rgb(3, 181, 3);
+    position: fixed;
+    width: 100vw;
+    z-index: 100000;
+}
+
+.logout{
+    color: red;
+    font-weight: 500;
+}
+.fakeheader{ 
+    height: 7vh;
+}
+.weather{
+    width: 100vw;
+    height: 20vh;
+}
+.heading{
+    height: 10vh;
+    padding: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+
+
+.wea{
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: aqua;
+}
+
+.search-box{
+   background-color: azure;
+   display: none;
+   justify-content: center;
+   align-items: center;
+}
+.search-box input{
+    margin-right: 5px;
+    font-size: 20px;
+    color: black;
+    padding: 1px 5px;
+    border-radius: 14px;
+    background: fixed;
+    border: 2px solid black;
+}
+
+.search-box input::placeholder{
+    color: rgb(4, 4, 4);
+}
+.search-box button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: fixed;
+    font-size: 30px;
+}
+.search-box button:hover{
+    background-color: rgb(62, 53, 53);
+    color: white;
+}
+
+
+#weather-img{
+    width: 70px;
+}
+
+.weather-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.weather-box .temperature{
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 0%;
+}
+
+.weather-box .temperature sup{
+    font-size: 20px;
+    position: absolute;
+    font-weight: 600;
+}
+
+.weather-box .description{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 0%;
+}
+
+
+
+
+.sub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.con{
+    box-shadow: 0px 0px 20px rgb(0, 53, 0);
+    width: 380px;
+    border-radius: 20px;
+    margin: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-con{
+    box-shadow: 0px 0px 20px rgb(0, 53, 0);
+    width:100%;
+    border-radius: 20px;
+    margin: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innercard{
+
+    height: 194px;
+    width: 350px
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.card{
+    width: 100px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0,0.2);
+    margin: 5px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-content{
+    padding: 2px;
+}
+
+.card-content h3{
+    font-size: 14px;
+}
+
+.card-content p{
+    font-size: 10px;
+}
+
+
+.card-content .btn{
+    display: inline-block;
+    padding: 1px 1px;
+    background-color: blue;
+    text-decoration: none;
+    border-radius: 4px;
+    color: white;
+    
+}
+
+.extra{
+    width: 100vw;
+    height: 33vh;
+}
+
+.footer {
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: inline-flex;
+    gap: 15px;
+}
+
+.footer-links li {
+    display: inline;
+}
